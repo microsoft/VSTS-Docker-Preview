@@ -1,10 +1,20 @@
-# VSTS-Docker-Preview
+# VSTS Docker Private Preview !
 
 The world's largest enterprises rely on Docker to develop the world’s best applications. With the Docker extension you can now integrate your existing agile and DevOps workflows with Docker to easily manage distribution of your images. 
 
-Take advantage of the Visual Studio Team Services cloud based build capabilities to build your Docker image, and upload that image to Docker Hub as part of your continuous integration flow. 
+##What is [Docker](https://www.docker.com/what-docker)?
+Docker allows you to package an application with all of its dependencies into a standardized unit for software development.
 
-##Usage
+Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries – anything you can install on a server. This guarantees that it will always run the same, regardless of the environment it is running in.
+
+##Visual Studio Team Services and Docker
+Take advantage of the Visual Studio Team Services (VSTS) cloud based build, release capabilities to build your Docker image, and upload that image to Docker Registry as part of your continuous integration or continuous deployment flow. 
+
+###Get started with Docker
+
+In order get access to VSTS Docker Extension, contact RM_Customer_Queries at Microsoft dot com.
+
+##What is in the box?
 
 This extension installs the following components:
   * A service endpoint for connecting to Docker Registry
@@ -17,7 +27,7 @@ This extension installs the following components:
   * A Docker Compose Task to:
     * Run a Docker Compose command
 
-###Steps
+###How tos?
 
 ####Create a Docker Registry Endpoint:
  1. Open the Services page in your Visual Studio Team Services Control Panel
@@ -109,9 +119,7 @@ This extension installs the following components:
 
   ![New Docker Host Connection](src/Images/DockerComposeUp.png)
 
-###Contact Information
 
-For further information or to resolve issues, contact RM_Customer_Queries at Microsoft dot com.
 
 ###Trademarks
 
