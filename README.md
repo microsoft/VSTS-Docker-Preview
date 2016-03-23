@@ -12,7 +12,7 @@ Take advantage of the Visual Studio Team Services (VSTS) cloud based build, rele
 
 ###Get started with Docker Extension
 
-We are currently in private preview, accepting customers by request. Please email us @  RM_Customer_Queries at Microsoft dot com to get started.
+We are currently in private preview, accepting customers by request. Please email us @  RM_Customer_Queries at Microsoft dot com with your vsts account (account.visualstudio.com) to get started.
 
 
 ##What is in the box?
