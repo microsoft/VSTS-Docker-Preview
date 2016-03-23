@@ -19,12 +19,12 @@ In order get access to VSTS Docker Extension, contact RM_Customer_Queries at Mic
 This extension installs the following components:
   * A service endpoint for connecting to Docker Registry
   * A service endpoint for connecting to Docker Container Host
-  * A Docker task to:
+  * A Docker task: Set of pre-built Docker commands to manage the lifecycle of application images.
     * Build an image
     * Push an image or a repository to a Registry
     * Run an image in a Container
     * Run a Docker command
-  * A Docker Compose Task to:
+  * A Docker Compose task: Docker Compose allows you to define your multi-container application with all of its dependencies in a single file, then spin your application up in a single command.
     * Run a Docker Compose command
 
 ###How tos?
