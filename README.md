@@ -2,7 +2,7 @@
 
 The world's largest enterprises rely on Docker to develop the world’s best applications. With the Docker extension you can now integrate your existing agile and DevOps workflows with Docker to easily manage distribution of your images. 
 
-##What is [Docker](https://www.docker.com/what-docker)?
+##What is [Docker](https://www.docker.com/)?
 Docker allows you to package an application with all of its dependencies into a standardized unit for software development.
 
 Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries – anything you can install on a server. This guarantees that it will always run the same, regardless of the environment it is running in.
