@@ -10,9 +10,10 @@ Docker containers wrap up a piece of software in a complete filesystem that cont
 ##Visual Studio Team Services and Docker
 Take advantage of the Visual Studio Team Services (VSTS) cloud based build, release capabilities to build your Docker image, and upload that image to Docker Registry as part of your continuous integration or continuous deployment flow. 
 
-###Get started with Docker
+###Get started with Docker Extension
 
-In order to get access to VSTS Docker Extension, contact RM_Customer_Queries at Microsoft dot com.
+We are currently in private preview, accepting customers by request. Please email us @  RM_Customer_Queries at Microsoft dot com to get started.
+
 
 ##What is in the box?
 
