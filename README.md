@@ -12,7 +12,7 @@ Take advantage of the Visual Studio Team Services (VSTS) cloud based build, rele
 
 ###Get started with Docker
 
-In order get access to VSTS Docker Extension, contact RM_Customer_Queries at Microsoft dot com.
+In order to get access to VSTS Docker Extension, contact RM_Customer_Queries at Microsoft dot com.
 
 ##What is in the box?
 
