@@ -1,4 +1,4 @@
-# VSTS Docker Private Preview !
+#Announcing VSTS Docker Extension Preview!
 
 The world's largest enterprises rely on Docker to develop the world’s best applications. With the Docker extension you can now integrate your existing agile and DevOps workflows with Docker to easily manage distribution of your images. 
 
