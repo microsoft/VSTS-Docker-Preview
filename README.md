@@ -22,7 +22,7 @@ This extension installs the following components:
 ####Create a Docker Registry Endpoint:
  1. Open the Services page in your Visual Studio Team Services Control Panel
  
- ![Services Tab](Images/ServicesTab.png)
+ ![Services Tab](src/Images/ServicesTab.png)
  2. In the New Service Endpoint list, choose Registry
 
   ![Services Control Panel](src/Images/ServicesControlPanel.png)
