@@ -116,6 +116,7 @@ This extension installs the following components:
    * *Environment Variables*: Arguments that need to be passed to docker-compose file. These will be set as environment variables. Specify each argument as name=value pair in a new line. For example, HTTP_PROXY=fabrikamweb.mydomain.com, HTTP_PORT=80
    * *Project Name*: Specify an alternate project name. 
    * *Docker Compose Command*: Docker Compose command along with its arguments. for example, Using 'up -d' starts the containers in the background and leaves them running, other examples are 'down --rmi all -v' or 'restart'. Note: Recommended to use detached mode (-d) to avoid blocking the agent..
+   *  *Working Directory*: The folder where the certs folder will be created and the certs written into.
 
   ![New Docker Host Connection](src/Images/DockerComposeUp.png)
 
