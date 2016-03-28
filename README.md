@@ -122,6 +122,9 @@ This extension installs the following components:
 
   ![New Docker Host Connection](src/Images/DockerComposeUp.png)
 
+###Feedback
+
+For further information or to resolve issues, contact RM_Customer_Queries at Microsoft dot com or we're just a [Tweet](https://twitter.com/intent/tweet?text=@vsreleasemgmt%20@r00pesh%20https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dms-vscs-rm.docker&source=webclient) away.
 
 
 ###Trademarks
