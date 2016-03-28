@@ -14,6 +14,7 @@ Take advantage of the Visual Studio Team Services (VSTS) cloud based build, rele
 
 We are currently in private preview, accepting customers by request. Please email us @  RM_Customer_Queries at Microsoft dot com with your vsts account (account.visualstudio.com) to get started.
 
+Once granted access, you can install the extension from [link](https://marketplace.visualstudio.com/items?itemName=ms-vscs-rm.docker)
 
 ##What is in the box?
 
