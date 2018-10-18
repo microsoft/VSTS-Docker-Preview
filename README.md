@@ -1,20 +1,20 @@
-#Announcing VSTS Docker Extension Preview!
+# Announcing VSTS Docker Extension Preview!
 
 The world's largest enterprises rely on Docker to develop the world’s best applications. With the Docker extension you can now integrate your existing agile and DevOps workflows with Docker to easily manage distribution of your images. 
 
-##What is [Docker](https://www.docker.com/)?
+## What is [Docker](https://www.docker.com/)?
 Docker allows you to package an application with all of its dependencies into a standardized unit for software development.
 
 Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries – anything you can install on a server. This guarantees that it will always run the same, regardless of the environment it is running in.
 
-##Visual Studio Team Services and Docker
+## Visual Studio Team Services and Docker
 Take advantage of the Visual Studio Team Services (VSTS) cloud based build, release capabilities to build your Docker image, and upload that image to Docker Registry as part of your continuous integration or continuous deployment flow. 
 
-###Get started with Docker Extension
+### Get started with Docker Extension
 
 You can install the extension from the [link](https://marketplace.visualstudio.com/items?itemName=ms-vscs-rm.docker)
 
-##What is in the box?
+## What is in the box?
 
 This extension installs the following components:
   * A service endpoint for connecting to Docker Registry
@@ -27,9 +27,9 @@ This extension installs the following components:
   * A Docker Compose task: Docker Compose allows you to define your multi-container application with all of its dependencies in a single file, then spin your application up in a single command.
     * Run a Docker Compose command
 
-###How tos?
+### How tos?
 
-####Create a Docker Registry Endpoint:
+#### Create a Docker Registry Endpoint:
  1. Open the Services page in your Visual Studio Team Services Control Panel
  
  ![Services Tab](src/Images/ServicesTab.png)
@@ -43,7 +43,7 @@ This extension installs the following components:
 
   ![New Docker Host Connection](src/Images/DockerRegistry.png)
 
-####Create a Docker Container Host Endpoint:
+#### Create a Docker Container Host Endpoint:
 
  1. Locate your ca.pem, key.pem and cert.pem files used to secure your Docker host.
  2. Open the Services page in your Visual Studio Team Services Control Panel.
@@ -59,7 +59,7 @@ This extension installs the following components:
 
   ![New Docker Host Connection](src/Images/DockerHostEndPoint.png)
 
-####Build your Docker image
+#### Build your Docker image
  1. Open your build definition and add the Docker task. The task can be found in the Build category of the Add Tasks dialog.
  2. Enter the required parameter values for the Docker task:
   * *Docker Host Connection*: Select your Docker Container Host connection.
@@ -71,7 +71,7 @@ This extension installs the following components:
 
   ![New Docker Host Connection](src/Images/BuildDockerImage.png)
 
-####Push your image to Docker Hub
+#### Push your image to Docker Hub
   1. Open your build definition and add the Docker task. The task can be found in the Build category of the Add Tasks dialog.
   2. Enter the required parameter values for the Docker task:
    * *Docker Host Connection*: Select your Docker Container Host connection.
@@ -82,7 +82,7 @@ This extension installs the following components:
 
   ![New Docker Host Connection](src/Images/PushDockerImage.png)
 
-####Run your image in a container
+#### Run your image in a container
   1. Open your build definition and add the Docker task. The task can be found in the Build category of the Add Tasks dialog.
   2. Enter the required parameter values for the Docker task:
    * *Docker Host Connection*: Select your Docker Container Host connection.
@@ -97,7 +97,7 @@ This extension installs the following components:
 
   ![New Docker Host Connection](src/Images/RunDockerImage.png)
 
-####Run a Docker command
+#### Run a Docker command
   1. Open your build definition and add the Docker task. The task can be found in the Build category of the Add Tasks dialog.
   2. Enter the required parameter values for the Docker task:
    * *Docker Host Connection*: Select your Docker Container Host connection.
@@ -108,7 +108,7 @@ This extension installs the following components:
 
   ![New Docker Host Connection](src/Images/RunDockerCommand.png)
 
-####Run Docker Compose command
+#### Run Docker Compose command
   1. Open your build definition and add the Docker Compose task. The task can be found in the Build category of the Add Tasks dialog.
   2. Enter the required parameter values for the Docker Compose task:
    * *Docker Host Connection*: Select your Docker Container Host connection.
@@ -121,12 +121,12 @@ This extension installs the following components:
 
   ![New Docker Host Connection](src/Images/DockerComposeUp.png)
 
-###Feedback
+### Feedback
 
 For further information or to resolve issues, contact RM_Customer_Queries at Microsoft dot com or we're just a [Tweet](https://twitter.com/intent/tweet?text=@vsreleasemgmt%20@r00pesh%20https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dms-vscs-rm.docker&source=webclient) away.
 
 
-###Trademarks
+### Trademarks
 
 Docker and the Docker logo are trademarks or registered trademarks of Docker, Inc. in the United States and/or other countries. Docker, Inc. and other parties may also have trademark rights in other terms used herein
 
